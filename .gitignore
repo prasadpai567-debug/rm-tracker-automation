@@ -1,0 +1,38 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local build/runtime tooling
+build_tools/
+pip_temp*/
+
+# PyInstaller output
+build/
+dist/
+dist_*/
+build_rebuilt*/
+*.exe
+
+# Private procurement data, generated reports, and audit evidence
+*.xlsx
+*.xlsm
+*.xls
+~$*
+audit_*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
